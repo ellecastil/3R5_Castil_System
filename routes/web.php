@@ -29,6 +29,6 @@ $router->patch('/users/{id}', 'UserController@update');       //update specific 
 $router->delete('/users/{id}', 'UserController@delete');    //delete record
 
 $router->get('login', 'UserController@showlogin');      //loginpage
-$router->post('validate', 'UserController@result');     //log in
+$router->post('validate', 'UserController@result');     //login button
 
 
